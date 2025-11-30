@@ -18,7 +18,7 @@ import io
 
 # API Configuration
 API_URL = 'https://api.oikolab.com/weather'
-API_KEY = '2e7fc493ee774cfa8aadf1c41b6735d1'  # Your API key
+API_KEY = ''  # Your API key
 
 # Required parameters for EnergyPlus simulation
 REQUIRED_PARAMETERS = [
@@ -266,4 +266,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
